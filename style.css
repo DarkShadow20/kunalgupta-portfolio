@@ -26,7 +26,17 @@ hr{
     margin: auto;
     padding: 1rem;
 }
-
+.resize-img{
+    max-width: 66px;
+}
+.container-technology{
+    text-align: center;
+    border-radius: 2rem;
+    margin: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    box-shadow: 5px 5px #34D399;
+}
 /**links**/
 .link{
     text-decoration: none;
