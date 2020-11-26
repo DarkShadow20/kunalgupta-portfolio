@@ -24,7 +24,7 @@
 }
 
 .blog .display-img{
-    display: block;
+    max-width: 700px;
     margin: auto;
     border-radius: 1rem 1rem 1rem 1rem; 
     height: 400px;
