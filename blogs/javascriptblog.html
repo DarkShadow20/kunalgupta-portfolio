@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+       
+
+        <title>blogs | kunalgupta</title>
+        <link href="/style.css" rel="stylesheet">
+        <link href="/blog.css" rel="stylesheet">
+        <link rel="icon" type="image/svg" href="/images/favicon.svg"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    </head>
+    <body>
+        <nav class="navigation container">
+            <div class="nav-brand">kunalGUPTA</div>
+            <ul class="list-non-bullet nav-pills">
+                <li class="list-item-inline">
+                    <a class="link" href='/index.html'>home</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href='/projects.html'>projects</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link link-active" href='/blogs.html'>blogs</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="blog"> 
+            <h1 class="blog-heading" ><strong> How JavaScript Works? </strong></h1>
+            <small>december 2020</small> 
+            <small class="secondary">2 min read</small>
+            <img class="display-img" src="/images/js.jpg" style="width:1020px">
+            
+
+        <section class="blog">
+            <p >So as a newbie who gets mesmerized with the beauty of javascript generally starts coding with javascript without the knowledge of the basics. At first, it seems really good, but this mesmerization with the language can become a myth, and you may start hating it.
+                So let’s start with the basics of how the javascript works. Understanding how this works makes reading and writing code easier and less frustrating and allows you to focus on your logic rather than the grammar of the language.</p>
+
+            <h1>HOW DOES IT WORK?</h1>
+            <p>JavaScript is a single-threaded synchronous language. It means that the code is executed in a line by line fashion and that too with a specific direction.<br></p>
+            <p>So understand this everything happens inside the execution context. You can think of this as a container in which the whole javascript code is executed.<br></p>
+            <p>So this execution context consists of two components<br></p>
+            <p>Memory Component.<br></p>
+            <p>Code Component.<br></p>
+            <p><strong>Memory Component</strong>: — It is also known as a variable environment. It consists of all the variables and functions in a key-value pair manner.<br></p>
+            <p><strong>Code Component</strong>:- Also known as Thread of execution. In which the whole code is executed is line by line.</p>
+
+            <h1>Call Stack</h1>
+            <img src="/images/call stack.png" class="img-secondary" alt="code-snippet">
+            <p> A call stack is a mechanism to keep track of its place in a script that calls multiple functions(execution context).<br></p>
+            <p> It tells which programs are currently executed and also tells which function is called within that function.<br></p>
+            <ul>
+                <li> When a program calls a function that function is been pushed into the stack.</li>
+                <li> When a function is called within a function then this function is also put on the stack and is run when they are being called.</li>
+                <li> Once a function is over they are popped from the stack.</li>
+                <li> If the space allotted to them is more than the stack can accommodate, it results in stack overflow error.</li>
+            </ul>
+            <h1>Closing Thoughts</h1>
+            <p>I hope this implementation was easy to understand and easy to play. Any ideas and comments are welcome.</p>
+        </section>
+
+    <footer class="footer">
+    <div class="footer-header">Connect with Me on social media</div>
+    <ul class="social-links list-non-bullet">
+    <li class="list-item-inline"><a class="link" href ="https://github.com/DarkShadow20"><i class="bx bxl-github"></i></a></li>
+    <li class="list-item-inline"><a class="link" href ="https://twitter.com/Kunal8011"><i class="bx bxl-twitter"></i></i></a></li>
+    <li class="list-item-inline"><a class="link" href ="https://www.linkedin.com/in/kunal-gupta-2a635712b"><i class="bx bxl-linkedin"></i></a></li>
+    </ul>
+    </footer> 
+    </body>
+    </html>
