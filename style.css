@@ -154,3 +154,14 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
+
+@media screen and (max-width:600px){
+    .navigation{
+        width: 100%;        
+    }
+    .navigation .link{
+        display: inline-block;
+        max-width: 100%;
+        padding: 0rem;
+    }
+}
